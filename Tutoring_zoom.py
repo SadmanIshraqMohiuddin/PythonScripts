@@ -13,7 +13,7 @@ email_recipients = {
     "Thursday": ["student_email@domain.com"], ["student_email@domain.com"],
     "Friday": ["student_email@domain.com"], ["student_email@domain.com"],
     "Saturday": ["student_email@domain.com"], ["student_email@domain.com"], ["student_email@domain.com"],
-    "Sunday": ["student_email@domain.com"]
+    "Sunday": ["student_email@domain.com"],
 }
 
 # Check if current day in dict
