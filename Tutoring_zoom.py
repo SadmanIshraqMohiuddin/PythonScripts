@@ -7,12 +7,12 @@ current_day = datetime.datetime.now().strftime("%A")
 
 # Dictionary mapped: days to email recipients
 email_recipients = {
-    "Monday": ["student_email@domain.com"],
-    "Tuesday": ["student_email@domain.com"],
-    "Wednesday": ["student_email@domain.com"],
-    "Thursday": ["student_email@domain.com"],
-    "Friday": ["student_email@domain.com"],
-    "Saturday": ["student_email@domain.com"],
+    "Monday": ["student_email@domain.com"], ["student_email@domain.com"],
+    "Tuesday": ["student_email@domain.com"], ["student_email@domain.com"],
+    "Wednesday": ["student_email@domain.com"], ["student_email@domain.com"],
+    "Thursday": ["student_email@domain.com"], ["student_email@domain.com"],
+    "Friday": ["student_email@domain.com"], ["student_email@domain.com"],
+    "Saturday": ["student_email@domain.com"], ["student_email@domain.com"], ["student_email@domain.com"],
     "Sunday": ["student_email@domain.com"]
 }
 
@@ -28,7 +28,7 @@ Here is your class link.
 
 ======================
 
-Sadman Mohiuddin is inviting you to a scheduled Zoom meeting.
+Tutor_Name is inviting you to a scheduled Zoom meeting.
 
 Join Zoom Meeting:
 
@@ -40,7 +40,7 @@ Passcode: Type in your zoom Passcode here
 ======================
 
 Best Regards,
-Sadman Mohiuddin
+Tutor_Name
 """
     body_encoded = urllib.parse.quote(body)
     recipient_emails_encoded = ','.join([urllib.parse.quote(email) for email in recipient_emails])
