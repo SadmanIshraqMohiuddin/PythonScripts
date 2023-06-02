@@ -7,13 +7,13 @@ current_day = datetime.datetime.now().strftime("%A")
 
 # Dictionary mapped: days to email recipients
 email_recipients = {
-    "Monday": ["student_email@domain.com"], ["student_email@domain.com"],
-    "Tuesday": ["student_email@domain.com"], ["student_email@domain.com"],
-    "Wednesday": ["student_email@domain.com"], ["student_email@domain.com"],
-    "Thursday": ["student_email@domain.com"], ["student_email@domain.com"],
-    "Friday": ["student_email@domain.com"], ["student_email@domain.com"],
-    "Saturday": ["student_email@domain.com"], ["student_email@domain.com"], ["student_email@domain.com"],
-    "Sunday": ["student_email@domain.com"],
+    "Monday": ["student1_email@domain.com", "student2_email@domain.com"],
+    "Tuesday": ["student3_email@domain.com", "student4_email@domain.com"],
+    "Wednesday": ["student5_email@domain.com", "student6_email@domain.com"],
+    "Thursday": ["student_email7@domain.com", "student_email8@domain.com"],
+    "Friday": ["student_email9@domain.com", "student_email10@domain.com"],
+    "Saturday": ["student_email11@domain.com", "student_email12@domain.com", "student_email13@domain.com"],
+    "Sunday": ["student_email14@domain.com"],
 }
 
 # Check if current day in dict
